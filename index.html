@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Francois+One|Josefin+Sans|Josefin+Slab|Oswald" rel="stylesheet">
     <!-- <link rel="icon" type="image/x-icon" href="/img/hapcast-logo.png"/> -->
     <title>Hapcast Login Page</title>
   </head>
@@ -41,41 +42,44 @@
        <!-- <input id="tbUnm" type="text" class="frm-ctrl tb" spellcheck="false" autocomplete="off" /> -->
      </div>
      <div id="facebook-logo">
-       <a href="www.facbook.com"><img id="facebook-logo"src="http://blogs-images.forbes.com/jonbruner/files/2011/07/facebook_logo.jpg"</></a>
+       <a href="www.facbook.com"><img id="facebook-logo"src="img/facebook.jpg"</></a>
      </div>
      <div class="wrapper">
-       <label for="tbEmail" class="lbl-tb"><i class="fa fa-envelope-o fa-fw"></i> Email</label>
+       <label for="tbEmail" class="lbl-tb"><i class="fa fa-envelope-o fa-fw"></i> Or Enter Details Below</label>
        <br />
-       <input id="tbEmail" type="text" class="frm-ctrl tb" spellcheck="false" autocomplete="off" />
+       <input id="tbEmail" type="text" class="frm-ctrl tb" spellcheck="false" autocomplete="off" placeholder="Email" />
      </div>
      <div class="wrapper">
-       <label for="tbPwd1" class="lbl-tb"><i class="fa fa-unlock fa-fw"></i> Password</label>
+       <label for="tbPwd1" class="lbl-tb"><i class="fa fa-unlock fa-fw"></i></label>
        <br />
-       <input id="tbPwd1" type="password" class="frm-ctrl tb" />
-       <p class="hint">The password should have at least 6 characters</p>
+       <input id="tbPwd1" type="password" class="frm-ctrl tb" placeholder="Password" />
+       <p class="hint">The password must have at least 6 characters</p>
      </div>
      <div class="wrapper">
-       <label for="tbPwd2" class="lbl-tb"><i class="fa fa-unlock fa-fw"></i> Confirm password</label>
+       <label for="tbPwd2" class="lbl-tb"><i class="fa fa-unlock fa-fw"></i></label>
        <br />
-       <input id="tbPwd2" type="password" class="frm-ctrl tb" />
-       <p class="hint">Repeat the above password</p>
+       <input id="tbPwd2" type="password" class="frm-ctrl tb" placeholder="Confirm Password" />
+       <!-- <p class="hint">Repeat the above password</p> -->
      </div>
      <div class="wrapper">
-       <label for="tbEmail" class="lbl-tb"><i class="fa fa-envelope-o fa-fw"></i>First Name</label>
+       <label for="tbEmail" class="lbl-tb"><i class="fa fa-envelope-o fa-fw"></i></label>
        <br />
-       <input id="tbEmail" type="text" class="frm-ctrl tb" spellcheck="false" autocomplete="off" />
+       <input id="tbEmail" type="text" class="frm-ctrl tb" spellcheck="false" autocomplete="off" placeholder="First Name" />
      </div>
      <div class="wrapper">
-       <label for="tbEmail" class="lbl-tb"><i class="fa fa-envelope-o fa-fw"></i>Last Name</label>
+       <label for="tbEmail" class="lbl-tb"><i class="fa fa-envelope-o fa-fw"></i></label>
        <br />
-       <input id="tbEmail" type="text" class="frm-ctrl tb" spellcheck="false" autocomplete="off" />
+       <input id="tbEmail" type="text" class="frm-ctrl tb" spellcheck="false" autocomplete="off" placeholder="Last Name" />
      </div>
      <div class="wrapper2">
-      <label for="tbUnm" class="lbl-tb"><i class="fa fa-user fa-fw"></i>Free Sign Up!</label>
-      <input type="submit" class="frm-ctrl btn" />
+      <label for="tbUnm" class="lbl-tb"><i class="fa fa-user fa-fw"></i></label>
+      <input id="free" type="Free" class="frm-ctrl btn" placeholder="Free Sign Up!" />
      </div>
-     <p>Already have an account?</p>
+     <div class ="sign-in-div">
+     <span>Already have an account?</span>
      <button id="sign-in">Sign In</button>
+    </div>
+
    </fieldset>
     </section>
   </body>
