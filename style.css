@@ -70,6 +70,8 @@ h1{
   padding-top: 40px;
   padding-bottom: 20px;
   font-weight: inherit;
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
 
 }
 ul{
@@ -79,7 +81,7 @@ ul{
   font-size: 20px;
   padding-bottom: 10px;
   font-weight: inherit;
-
+  font-family: 'Raleway', sans-serif;
 
 }
 
@@ -127,7 +129,7 @@ border-image: url(http://www.w3.org/TR/css3-background/border.png) 27 fill stret
 }
 
 .frm-ctrl {
-  color: #eee;
+  color: black;
   background: transparent;
   margin: 5px 0;
   padding: 5px;
