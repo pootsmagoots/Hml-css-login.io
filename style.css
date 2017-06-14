@@ -32,10 +32,11 @@ button{
     font-size: 13px;
     background-color: white;
     cursor: pointer;
-    font-size: 0.875em;
+    font-size: 0.775em;
 
     left:-60px;
     margin-top:35px;
+
 
 }
 #sign-up{
