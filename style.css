@@ -34,16 +34,22 @@ button:hover{
   background-position: center;
 background-color: white;
 }
-body{
-  background-image: url("img/background.jpg");
+.image{
+  background-image: url("img/image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
 
 }
+
 h1{
   display: flex;
   justify-content: center;
   color: white;
   padding-top: 40px;
   padding-bottom: 40px;
+  font-weight: 100;
+
 }
 ul{
   display: flex;
@@ -51,6 +57,8 @@ ul{
   color: white;
   font-size: 20px;
   padding-bottom: 80px;
+  font-weight: bold;
+
 
 }
 
@@ -122,8 +130,6 @@ ul{
 }
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
-
-
 
 /* List styling */
 .featureList, .featureList ul {
