@@ -22,8 +22,8 @@ button{
   display: flex;
   flex-wrap: wrap;
   float: right;
-  margin-top: 40px;
-  margin-left: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
   border: none;
     color: #6E8FB4;
     text-align: center;
@@ -32,6 +32,11 @@ button{
     font-size: 13px;
     background-color: white;
     cursor: pointer;
+    font-size: 0.875em;
+
+    left:-60px;
+    margin-top:35px;
+
 }
 #sign-up{
   color: #F0A82E;
@@ -47,7 +52,7 @@ button:hover{
  background-repeat: no-repeat;
   background-position: center;
 background-color: white;
- 
+
 }
 .image{
   background-image: url("img/image.jpg");
