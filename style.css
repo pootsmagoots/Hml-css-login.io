@@ -6,7 +6,21 @@ html {
 img {
   width: 250px;
 }
+#sign-in{
+  border-style: solid;
+
+  border-color: grey;
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    background-color: white;
+    cursor: pointer;
+}
 button{
+  display: flex;
+  flex-wrap: wrap;
   float: right;
   margin-top: 40px;
   margin-left: 20px;
@@ -33,6 +47,7 @@ button:hover{
  background-repeat: no-repeat;
   background-position: center;
 background-color: white;
+ 
 }
 .image{
   background-image: url("img/image.jpg");
@@ -47,7 +62,7 @@ h1{
   justify-content: center;
   color: white;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   font-weight: 100;
 
 }
@@ -56,7 +71,7 @@ ul{
   justify-content: space-around;
   color: white;
   font-size: 20px;
-  padding-bottom: 80px;
+  padding-bottom: 10px;
   font-weight: bold;
 
 
@@ -72,13 +87,23 @@ ul{
   text-align: center;
 }
 
-.container legend {
+/*.container legend {
   color: #ccc;
   margin: 0 0 0 280px;
   padding: 0;
   letter-spacing: 2px;
-}
+}*/
 
+.wrapper1{
+  padding-bottom: 20px;
+ font-size: 20px;
+}
+.wrapper2{
+  margin-bottom: 30px;
+  border-width: 0 0 5px;
+  border-style: solid;
+border-image: url(http://www.w3.org/TR/css3-background/border.png) 27 fill stretch;
+}
 .wrapper {
   margin: 0 0 20px 0;
 }
@@ -91,7 +116,7 @@ ul{
 }
 
 .lbl-tb {
-  font-size: 12px;
+  font-size: 15px;
   text-transform: uppercase;
 }
 
@@ -149,4 +174,10 @@ ul{
 .featureList li.cross:before {
   content: "\2717";
   color: crimson;
+}
+#facebook-logo {
+  margin-bottom: 30px;
+  border-width: 0 0 5px;
+  border-style: solid;
+border-image: url(http://www.w3.org/TR/css3-background/border.png) 27 fill stretch;
 }
