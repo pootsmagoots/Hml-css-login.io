@@ -1,3 +1,44 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
 img {
   width: 250px;
+}
+button{
+  float: right;
+  margin-top: 40px;
+  margin-left: 20px;
+  border: none;
+    color: #6E8FB4;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    background-color: white;
+    cursor: pointer;
+}
+#sign-up{
+  color: #F0A82E;
+}
+button:hover{
+  background-color: black;
+}
+.logo{
+  border: 0px solid #000;
+   border-radius: 5px;
+   width: 100%;
+   background-size: cover;
+ background-repeat: no-repeat;
+  background-position: center;
+background-color: white;
+}
+body{
+  background-image: url("img/background.jpg");
+}
+h1{
+  display: flex;
+  justify-content: center;
+  color: white;
 }
